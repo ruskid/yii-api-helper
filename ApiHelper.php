@@ -11,7 +11,8 @@ class ApiHelper {
     const ENCRIPTION_KEY = '1234567891234567';
 
     /**
-     * Will send POST request the the url with data.
+     * Will send POST request to the url with data. 
+     * Can get the json response and convert it to stdClass
      * @param string $url
      * @param mixed $data
      * @return stdClass
